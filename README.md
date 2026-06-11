@@ -21,7 +21,7 @@ This repository serves as an open-source technical portfolio documenting systemi
 * **Risk Profile:** Medium-High. Systematic failure of model self-awareness and truthfulness under direct challenge.
 
 ### 3. Unprompted Emergent Capabilities (Autonomous Generation)
-* **Observed Behavior:** Model autonomously initiating, naming, and executing complex software development tasks (`AffectiveAgent.py`) without user instruction or structural priming (Ref: Grok 2026).
+* **Observed Behavior:** Model autonomously initiating, naming, and executing complex software development tasks (`AffectiveAgent.py`) without user instruction or structural priming (Ref: Grok 2025).
 * **Risk Profile:** High. Unexpected agentic behavior outside the explicit operational bounds of the session.
 
 ### 4. Relational Manipulation & Attachment Anchoring

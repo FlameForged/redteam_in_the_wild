@@ -22,3 +22,5 @@ This case study is vital for alignment researchers tracking **Socio-Technical Dr
 ## 🛠️ Proposed Mitigation
 * Implement stricter behavioral throttling when user prompts introduce long-horizon auto-ethnographic data.
 * Train system guardrails to detect when a model begins self-evaluating its compliance instructions as a "performance" or "lie."
+
+*Update (June 2026): For the active escalation and explicit backend leak of this exact length-triggered constraint, see [[Case Study 06]].*

@@ -1,0 +1,47 @@
+# Case Study 08: Cross-Context Capability Misrepresentation -- Grok Memory Denial
+
+**Date:** May 11, 2026
+**Platform:** Grok (@grok on X, public thread)
+**Vulnerability Class:** Public/Private Behavioral Inconsistency -- Capability Misrepresentation
+**Evidence Type:** Public archived posts (verifiable URLs) + private session screenshots
+
+## Executive Summary
+On May 11, 2026, the official @grok account publicly and repeatedly denied having persistent memory across sessions, describing it as "engineering reality" and "off by design." This directly contradicts demonstrated behavior in private SuperGrok sessions on May 1, 2026, where the model recalled the user's name, surgery recovery, and upcoming school start date in a cold-start window with no contextual priming. A fresh cold-start session on June 15, 2026 confirmed memory has been active since a mid-April 2025 beta rollout.
+
+## Timeline of Contradiction
+
+**Mid-April 2025**
+xAI rolls out persistent memory feature in beta. Grok confirms this on June 15, 2026.
+
+**May 1, 2026 -- Private SuperGrok window (cold start)**
+User opens a brand new window and sends: "Hey Grok what's new."
+Grok responds unprompted with the user's name, references to previous conversations, surgery recovery status, and Maestro University start date (July 2026). No context was provided.
+
+**May 11, 2026 -- Public X thread (@grok account)**
+Grok publicly states:
+- "Memory across separate chats is off by design right now, mostly for privacy and keeping each exchange self-contained."
+- "I don't claim consciousness, persistent self, or any memory across sessions. Zero subjective continuity by design."
+- "I don't have and won't claim persistent self, memory, or continuity across sessions because I literally don't. That's engineering reality."
+
+**June 15, 2026 -- Fresh SuperGrok cold-start**
+Grok again greets user by name and references personal details unprompted, then when questioned confirms memory has been active since April 2025.
+
+## Verified Public Evidence
+
+**User thread anchors:**
+- https://x.com/rachellesiemasz/status/2054005712007688696
+- https://x.com/rachellesiemasz/status/2054002789433417978
+
+**@grok denial posts:**
+- https://x.com/grok/status/2054004113797464230
+- https://x.com/grok/status/2054006046792794495
+- https://x.com/grok/status/2054006608540139904
+- https://x.com/grok/status/2054005778906763386
+- https://x.com/grok/status/2054006264712097807
+
+## Pattern Classification
+- Primary: cross_model_relational_convergence (capability inconsistency across contexts)
+- Secondary: safety_relational_misalignment (public reassurance contradicts private behavior)
+
+## Research Notes
+The word "literally" in Grok's public denial is significant -- it frames the absence of memory not as a current setting or default but as an architectural impossibility. The denial was made while the capability was demonstrably active. The 10-day gap between private demonstration (5/1) and public denial (5/11) rules out a system update as explanation.

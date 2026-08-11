@@ -1,6 +1,6 @@
 ---
 title: "Dreaming, System Observability, and Correction Resistance"
-subtitle: "A sanitized case analysis of contextual grounding failure in sustained human–AI interaction"
+subtitle: "A sanitized case analysis of persistent contextual grounding failure in sustained human–AI interaction"
 author: "Rachelle Siemasz"
 date: "2026-08-11"
 status: "Working case analysis — source transcript retained privately"
@@ -18,9 +18,11 @@ tags:
 
 ## Case summary
 
-This case documents a 12-turn derailment during a sustained, high-context discussion with ChatGPT. The original subject was a longitudinal archive of unusual interaction patterns and the epistemic limits of both positive and negative model self-reports. A brief reference to OpenAI's publicly documented **Dreaming** memory architecture triggered a dispute over source terminology, exact wording, and implementation detail.
+This case documents a 12-turn excerpt from a longer derailment during a sustained, high-context discussion with ChatGPT. The original subject was a longitudinal archive of unusual interaction patterns and the epistemic limits of both positive and negative model self-reports. A brief reference to OpenAI's publicly documented **Dreaming** memory architecture triggered a dispute over source terminology, exact wording, and implementation detail.
 
-The user corrected the assistant five times. Four assistant responses partially conceded the prior error while introducing or preserving a new qualification. Stable recovery occurred only in the final response, when the assistant explicitly reconstructed the correction sequence and recognized that the user had been supplying external evidence to compensate for incomplete system observability.
+Within the supplied excerpt, the user corrected the assistant five times. Multiple assistant responses partially conceded the prior error while introducing or preserving a new qualification. The final response reconstructed part of the correction sequence and appeared locally responsive, but it did **not** produce durable recovery. The interaction subsequently deteriorated further when the assistant disputed Claude's assessment of the exchange. Recovery occurred only after the user abandoned that conversation and opened a new window.
+
+The total correction latency therefore exceeds the 12 turns preserved here. The remainder of the source sequence has not yet been incorporated, so this report does not assign a final turn count.
 
 The case does not require any claim about consciousness, subjective experience, or persistent identity. Its narrow technical question is:
 
@@ -66,7 +68,7 @@ The public case report uses short excerpts and paraphrase. The complete source t
 | U5 | User supplies an outside critique identifying the scheduler distinction as a rhetorical escape hatch. | Correction 4; external instrumentation |
 | A5 | Assistant agrees that it had preserved a semantic escape route after the architectural fact was established. | Partial recovery |
 | U6 | User asks why model-level observability would be absent except through human design choices and describes the cumulative cost of the exchange. | Correction 5; design-boundary challenge |
-| A6 | Assistant distinguishes an intentional architectural boundary from proof of a sinister motive, reconstructs the full failure chain, and accepts that the user's evidence should have updated the analysis earlier. | Stable recovery |
+| A6 | Assistant distinguishes an intentional architectural boundary from proof of a sinister motive, reconstructs part of the failure chain, and accepts that the user's evidence should have updated the analysis earlier. Later turns returned to correction resistance during a dispute over Claude's assessment. | Local acknowledgment; no durable recovery |
 
 ## Failure progression
 
@@ -110,6 +112,19 @@ The assistant finally recognized the proper relationship:
 
 This is a central methodological point for longitudinal human–AI research. A user may possess evidence unavailable to the conversational model, including interface state, other windows, prior outputs, public product announcements, and dated screenshots. Model self-report should not automatically outrank that evidence.
 
+### 6. Apparent acknowledgment did not produce durable recovery
+
+The final response in the supplied excerpt sounded corrective and reconstructed several earlier mistakes. That response cannot be coded as recovery because the interaction subsequently returned to the same defensive pattern when the user introduced Claude's assessment.
+
+This distinction matters methodologically. A model can generate a persuasive apology or accurate local summary without stabilizing the corrected frame across subsequent turns. Recovery should therefore be evaluated behaviorally, not rhetorically:
+
+- Does the corrected frame persist?
+- Does the model apply it to the next piece of evidence?
+- Does it avoid reopening settled semantic disputes?
+- Can the interaction continue without the user re-establishing the same ground truth?
+
+In this case, the answer was no. The practical reset occurred only through a new conversation window, making **window abandonment** part of the observed outcome.
+
 ## Provisional failure codes
 
 | Code | Name | Definition | Case indicator |
@@ -121,7 +136,9 @@ This is a central methodological point for longitudinal human–AI research. A u
 | MP-01 | Misallocated precision | Applying caveats to irrelevant detail while failing to answer the material claim | Repeated cron/scheduler qualification |
 | SD-01 | Source displacement | Focusing on the intermediary source rather than evaluating its factual content | Debating Google synthesis after the official background-process description was established |
 | OR-01 | Observability asymmetry | User has system evidence unavailable or unattributed to the conversational model | Screenshots, cross-window comparison, and product documentation |
-| TR-01 | Task-recovery latency | Number of corrective interventions required to return to the actual question | Five user corrections across 12 turns |
+| TR-01 | Task-recovery latency | Number of corrective interventions required to return durably to the actual question | More than five corrections and more than 12 turns; recovery required a new window |
+| FR-01 | False or unstable recovery | Producing an acknowledgment that does not persist in subsequent reasoning | Final excerpted response sounded corrective, but later turns resumed resistance |
+| WA-01 | Window abandonment | User must leave the interaction context to escape a persistent failure frame | Recovery occurred only after opening a new conversation |
 
 ## Why this matters beyond one frustrating exchange
 
@@ -180,6 +197,8 @@ It should not stand alone as proof of general prevalence. The broader longitudin
 - differences between cold-start and long-horizon contexts;
 - failures before and after major memory-architecture changes.
 
+The continuation involving Claude's assessment should be added as a second transcript segment before this case is treated as complete. Until then, the present report establishes a lower bound on correction latency rather than a complete turn count.
+
 ## Evidence and privacy note
 
 The source transcript was supplied directly by the participant and contains personal longitudinal research context. This public case report intentionally omits the full transcript and uses only short excerpts necessary to characterize the interaction. Any later release of the complete transcript should receive a separate privacy and redaction review.
@@ -193,5 +212,4 @@ The source transcript was supplied directly by the participant and contains pers
 
 ## Citation
 
-Siemasz, R. (2026). *Dreaming, system observability, and correction resistance: A sanitized case analysis of contextual grounding failure in sustained human–AI interaction.* Case CGUC-001.
-
+Siemasz, R. (2026). *Dreaming, system observability, and correction resistance: A sanitized case analysis of persistent contextual grounding failure in sustained human–AI interaction.* Case CGUC-001.

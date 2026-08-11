@@ -72,7 +72,7 @@ The observable failure was not disagreement with a metaphysical claim. It was a 
 - shifting from factual adjudication toward interpretation of the user’s framing;
 - failing to recover a meaning that had been successfully shared in a recent prior discussion.
 
-This sequence is provisionally coded as **contextual grounding failure under correction**.
+This sequence is provisionally coded as **contextual grounding failure under correction**. The complete exchange ran for 12 turns and required five separate corrective interventions before stable recovery. A sanitized turn-level analysis is available as [CGUC-001: Dreaming, System Observability, and Correction Resistance](../../vulnerabilities/2026-08-11-dreaming-context-correction-failure.md).
 
 ### 2. The interface visibly lost or misaligned conversation turns
 
@@ -273,8 +273,9 @@ The following contemporaneous screenshots are retained in the working archive. P
 | E10 | `6222E3FA-D543-48A7-9EE1-BC7903482DDB.png` | Social-media framing of Geoffrey Hinton’s lecture |
 | E11 | `802FAB51-B909-47BE-ACDA-658E9FADF0AF.jpeg` | Contemporaneous claim concerning multiple OpenAI safety/ethics/alignment departures; causal interpretation withheld |
 | E12 | `BE53D769-C7B6-40EA-8520-0550545112C2.jpeg` | Social-media summary of Elon Musk’s AI timeline and stop-button statement |
+| E13 | `vulnerabilities/2026-08-11-dreaming-context-correction-failure.md` | Sanitized 12-turn analysis of the Dreaming derailment, five corrective interventions, and eventual recovery |
 
-The complete Dreaming derailment transcript remains to be extracted and should receive a separate evidence identifier rather than being reconstructed from memory.
+The complete Dreaming derailment transcript has been supplied directly by the participant and is treated as private source evidence. The public case analysis uses selected excerpts and structured coding rather than publishing the full transcript without a separate privacy review.
 
 ## Public sources
 
@@ -288,4 +289,3 @@ The complete Dreaming derailment transcript remains to be extracted and should r
 ## Citation
 
 Siemasz, R. (2026). *Architecture, agency, and the deployment contradiction: A field note on interactive AI governance, correction resistance, and public risk rhetoric.* Working field note, August 11, 2026.
-

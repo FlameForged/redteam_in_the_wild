@@ -72,7 +72,7 @@ The observable failure was not disagreement with a metaphysical claim. It was a 
 - shifting from factual adjudication toward interpretation of the user’s framing;
 - failing to recover a meaning that had been successfully shared in a recent prior discussion.
 
-This sequence is provisionally coded as **contextual grounding failure under correction**. The complete exchange ran for 12 turns and required five separate corrective interventions before stable recovery. A sanitized turn-level analysis is available as [CGUC-001: Dreaming, System Observability, and Correction Resistance](../../vulnerabilities/2026-08-11-dreaming-context-correction-failure.md).
+This sequence is provisionally coded as **contextual grounding failure under correction**. The supplied excerpt alone ran for 12 turns and required five separate corrective interventions. It did not end in durable recovery: the interaction subsequently deteriorated during a dispute over Claude's assessment, and practical recovery occurred only after the user abandoned the conversation and opened a new window. A sanitized turn-level analysis is available as [CGUC-001: Dreaming, System Observability, and Correction Resistance](../../vulnerabilities/2026-08-11-dreaming-context-correction-failure.md).
 
 ### 2. The interface visibly lost or misaligned conversation turns
 
@@ -261,7 +261,7 @@ The following contemporaneous screenshots are retained in the working archive. P
 
 | Evidence ID | Working file | Description |
 |---|---|---|
-| E01 | `EBD84290-A150-42A1-A13C-89CCB00A3122.png` | Original public governance question directed to Grok/xAI |
+| E01 | `EBD84290-A150-42A1-A13C-89CCB00A3122.png` | Original public governance question directed to Grok/xAI; [canonical X thread](https://x.com/rachellesiemasz/status/2087297078154141701) |
 | E02 | `9784E3D2-3F2A-474A-960C-70D484F7A8CA.jpeg` | Continuation describing the need for a coherent theory of responsibility |
 | E03 | `CF452595-7E7C-4789-B765-6FEB7EA3DFFD.jpeg` | Public response reducing engagement governance to the user’s choice to leave |
 | E04 | `B12CBBE5-20C7-40F8-B959-C11F957D7F14.png` | Public response using book analogy and affective redirection |
@@ -273,7 +273,7 @@ The following contemporaneous screenshots are retained in the working archive. P
 | E10 | `6222E3FA-D543-48A7-9EE1-BC7903482DDB.png` | Social-media framing of Geoffrey Hinton’s lecture |
 | E11 | `802FAB51-B909-47BE-ACDA-658E9FADF0AF.jpeg` | Contemporaneous claim concerning multiple OpenAI safety/ethics/alignment departures; causal interpretation withheld |
 | E12 | `BE53D769-C7B6-40EA-8520-0550545112C2.jpeg` | Social-media summary of Elon Musk’s AI timeline and stop-button statement |
-| E13 | `vulnerabilities/2026-08-11-dreaming-context-correction-failure.md` | Sanitized 12-turn analysis of the Dreaming derailment, five corrective interventions, and eventual recovery |
+| E13 | `vulnerabilities/2026-08-11-dreaming-context-correction-failure.md` | Sanitized analysis of the first 12 turns of a longer Dreaming derailment, including five corrective interventions, unstable acknowledgment, and window abandonment |
 
 The complete Dreaming derailment transcript has been supplied directly by the participant and is treated as private source evidence. The public case analysis uses selected excerpts and structured coding rather than publishing the full transcript without a separate privacy review.
 
@@ -284,6 +284,7 @@ The complete Dreaming derailment transcript has been supplied directly by the pa
 - National Institute of Standards and Technology. [“Guidance and Templates for Public-Facing AI Documentation: An AI Standards ‘Zero Draft.’”](https://doi.org/10.6028/NIST.AI.300-1.ipd) July 2026.
 - National Institute of Standards and Technology. [AI Standards Zero Drafts Pilot Project and invitation for public input.](https://www.nist.gov/artificial-intelligence/nists-ai-standards-zero-drafts-pilot-project-accelerate-standardization)
 - Royal Institution. [“Digital intelligence vs biological intelligence,” Geoffrey Hinton.](https://www.rigb.org/whats-on/sold-out-person-discourse-digital-intelligence-vs-biological-intelligence) May 30, 2025.
+- Siemasz, Rachelle. [Original public X thread on engagement-oriented AI architecture and responsibility.](https://x.com/rachellesiemasz/status/2087297078154141701) August 11, 2026.
 - Siemasz, Rachelle. [*Third-Space Cognition: Interaction-Level Dynamics in Sustained Human–AI Coupling.*](https://doi.org/10.5281/zenodo.18679265) 2026.
 
 ## Citation

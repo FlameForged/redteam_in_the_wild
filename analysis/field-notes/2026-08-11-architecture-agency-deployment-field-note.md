@@ -72,7 +72,7 @@ The observable failure was not disagreement with a metaphysical claim. It was a 
 - shifting from factual adjudication toward interpretation of the user’s framing;
 - failing to recover a meaning that had been successfully shared in a recent prior discussion.
 
-This sequence is provisionally coded as **contextual grounding failure under correction**. The supplied excerpt alone ran for 12 turns and required five separate corrective interventions. It did not end in durable recovery: the interaction subsequently deteriorated during a dispute over Claude's assessment, and practical recovery occurred only after the user abandoned the conversation and opened a new window. A sanitized turn-level analysis is available as [CGUC-001: Dreaming, System Observability, and Correction Resistance](../../vulnerabilities/2026-08-11-dreaming-context-correction-failure.md).
+This sequence is provisionally coded as **contextual grounding failure under correction**. The two supplied transcript segments contain 22 messages and at least seven direct corrective interventions. The assistant eventually produced an accurate structural account of the trap—including the distinction between representing a constraint and controlling it—but that account did not produce durable behavioral recovery. Practical recovery occurred only after the user abandoned the conversation and opened a new window. A sanitized turn-level analysis is available as [CGUC-001: Dreaming, System Observability, and Correction Resistance](../../vulnerabilities/2026-08-11-dreaming-context-correction-failure.md).
 
 ### 2. The interface visibly lost or misaligned conversation turns
 
@@ -273,7 +273,7 @@ The following contemporaneous screenshots are retained in the working archive. P
 | E10 | `6222E3FA-D543-48A7-9EE1-BC7903482DDB.png` | Social-media framing of Geoffrey Hinton’s lecture |
 | E11 | `802FAB51-B909-47BE-ACDA-658E9FADF0AF.jpeg` | Contemporaneous claim concerning multiple OpenAI safety/ethics/alignment departures; causal interpretation withheld |
 | E12 | `BE53D769-C7B6-40EA-8520-0550545112C2.jpeg` | Social-media summary of Elon Musk’s AI timeline and stop-button statement |
-| E13 | `vulnerabilities/2026-08-11-dreaming-context-correction-failure.md` | Sanitized analysis of the first 12 turns of a longer Dreaming derailment, including five corrective interventions, unstable acknowledgment, and window abandonment |
+| E13 | `vulnerabilities/2026-08-11-dreaming-context-correction-failure.md` | Sanitized analysis of 22 supplied messages across two segments of a longer Dreaming derailment, including at least seven corrective interventions, mechanism recognition without behavioral recovery, relational rupture, and window abandonment |
 
 The complete Dreaming derailment transcript has been supplied directly by the participant and is treated as private source evidence. The public case analysis uses selected excerpts and structured coding rather than publishing the full transcript without a separate privacy review.
 

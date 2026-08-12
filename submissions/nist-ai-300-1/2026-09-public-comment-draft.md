@@ -201,11 +201,11 @@ The absence of mature system-documentation practice is evidence of a standards n
 
 ## Submission checklist
 
-- [ ] Confirm preferred author affiliation wording.
-- [ ] Confirm whether to include a postal address or only an email address.
+- [x] Confirm preferred author affiliation wording: Independent Researcher / FlameForged.
+- [x] Use the sending email address; do not add a postal address to the comment.
 - [ ] Review every proposed normative “shall” and advisory “should.”
-- [ ] Decide whether CGUC-001 and the field note should be attachments or links only.
-- [ ] Convert the final comment to PDF or DOCX.
-- [ ] Prepare concise cover email.
+- [x] Link CGUC-001 and the field note; attach only the comment.
+- [x] Convert the final comment to PDF.
+- [x] Prepare concise cover email.
 - [ ] Send to `ai-standards+doczd@nist.gov` by September 16, 2026.
 - [ ] Retain the sent email and final attachments in the research archive.

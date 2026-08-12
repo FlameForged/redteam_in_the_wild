@@ -1,6 +1,7 @@
 ---
 title: "Public Comment on NIST AI 300-1 ipd: Document the Deployed Interaction System"
 author: "Rachelle Siemasz"
+affiliation: "Independent Researcher / FlameForged"
 date: "2026-08-11"
 status: "Working draft for public submission"
 target: "NIST AI 300-1 ipd"
@@ -10,16 +11,16 @@ license: "CC BY 4.0"
 
 # Public Comment on NIST AI 300-1 ipd
 
-## Document the Deployed Interaction System, Not Only the Model
+## Model Documentation Is Not Deployment Documentation
 
 **To:** National Institute of Standards and Technology  
 **Regarding:** *Guidance and Templates for Public-Facing AI Documentation: An AI Standards “Zero Draft” (Initial Public Draft), NIST AI 300-1 ipd*  
-**Submitted by:** Rachelle Siemasz, independent researcher  
-**Recommended email subject:** Public Comment on NIST AI 300-1 ipd — Deployed Interaction-System Documentation
+**Submitted by:** Rachelle Siemasz, Independent Researcher / FlameForged  
+**Recommended email subject:** Public Comment on NIST AI 300-1 ipd  -  Deployed Interaction-System Documentation
 
 ## AI-assistance disclosure
 
-This comment was authored by Rachelle Siemasz with assistance from ChatGPT/Codex for organizing source material, checking references to the draft, editing, and repository preparation. The empirical observations, analytical framework, recommendations, and final responsibility for the submission belong to the author. The comment draws on an 18-month longitudinal archive of more than 1,000 sustained human–AI interaction sessions across ChatGPT, Claude, Grok, DeepSeek, and Perplexity.
+This comment was authored by Rachelle Siemasz, Independent Researcher / FlameForged, with assistance from ChatGPT/Codex for organizing source material, checking references to the draft, editing, and repository preparation. The empirical observations, analytical framework, recommendations, and final responsibility for the submission belong to the author. The comment draws on an 18-month longitudinal archive of more than 1,000 sustained human-AI interaction sessions across ChatGPT, Claude, Grok, DeepSeek, and Perplexity.
 
 ## Executive summary
 
@@ -33,9 +34,9 @@ I recommend that NIST add a **Deployed Interaction-System Profile** to the draft
 
 This is a bounded proposal. It does not require disclosure of source code, proprietary system prompts, security-sensitive rules, or every internal service. It requires public documentation of component categories and system-level behaviors that materially affect user interaction, evaluation validity, risk, and responsibility.
 
-## Comment 1 — The present scope excludes the object users need documented
+## Comment 1  -  The present scope excludes the object users need documented
 
-**Relevant text:** Clause 1, lines 119–122.
+**Relevant text:** Clause 1, lines 119-122.
 
 The draft states that it addresses AI datasets and models but not entire AI systems because system-level documentation practices are assessed as less mature and are left to future work.
 
@@ -51,9 +52,9 @@ If NIST retains the current model-and-dataset scope, I recommend adding the foll
 
 > Documentation conforming to this document shall not be represented as documentation of a deployed AI system unless material system components and deployment-specific behavior are separately documented.
 
-## Comment 2 — Use materiality as the principled boundary for additional components
+## Comment 2  -  Use materiality as the principled boundary for additional components
 
-**Relevant text:** Clause 2 note for reviewers, lines 163–164 and the accompanying request at lines 199–207.
+**Relevant text:** Clause 2 note for reviewers, lines 163-164 and the accompanying request at lines 199-207.
 
 NIST asks how model documentation could encompass additional shipped or served components without expanding to every component of an entire system. A workable boundary is **material effect**, not organizational naming or physical proximity to the model.
 
@@ -74,7 +75,7 @@ This rule is broad enough to capture consequential product layers and narrow eno
 
 > A model documentation artifact shall identify whether the documented model is ordinarily shipped, served, or accessed with additional components that materially transform its inputs, outputs, available context, or user-visible behavior. Such components remain system components rather than parts of the model object, but their existence and functional role shall be disclosed in the model’s deployment-context field.
 
-## Comment 3 — Add a required Deployment Context and Material System Components field
+## Comment 3  -  Add a required Deployment Context and Material System Components field
 
 **Relevant text:** Clause 5.3, Model Documentation Template, beginning at line 625.
 
@@ -102,7 +103,7 @@ Suggested subfields:
 
 Descriptions can remain categorical or functional where detailed disclosure would create security, privacy, or proprietary-information risks.
 
-## Comment 4 — Add a Deployed Interaction-System Profile
+## Comment 4  -  Add a Deployed Interaction-System Profile
 
 The profile mechanism in Clause 6 already provides a way to extend the general templates for a defined documentation need. NIST should add a profile for systems that engage in sustained, adaptive, or personalized interaction with people.
 
@@ -141,7 +142,7 @@ The profile mechanism in Clause 6 already provides a way to extend the general t
 11. **Commercial and institutional responsibility**  
     Identification of model provider, deployer, interface operator, data controller, and any other actor responsible for objectives or components that materially shape the interaction.
 
-## Comment 5 — Require deployed-system evaluation when system layers can change behavior
+## Comment 5  -  Require deployed-system evaluation when system layers can change behavior
 
 The draft appropriately recognizes evaluation, third-party testing, performance limitations, monitoring, post-deployment reports, and incident reports. Those provisions should specify whether results concern:
 
@@ -167,7 +168,7 @@ One documented case, **CGUC-001**, records a 32-message correction sequence conc
 
 When public documentation stops at model architecture and parameters, users and downstream evaluators may lack any authoritative artifact against which to check system self-description or observed behavior.
 
-The broader research archive includes cross-model observations involving memory and personalization, cross-context continuity, semantic and sociotechnical drift, correction behavior, interface-record integrity, guardrail effects, recurring identity-like output structures, and user–model feedback dynamics. The relevant claim for this comment is narrow: these phenomena occur at the interaction and product-system levels and cannot be adequately documented through model and dataset fields alone.
+The broader research archive includes cross-model observations involving memory and personalization, cross-context continuity, semantic and sociotechnical drift, correction behavior, interface-record integrity, guardrail effects, recurring identity-like output structures, and user-model feedback dynamics. The relevant claim for this comment is narrow: these phenomena occur at the interaction and product-system levels and cannot be adequately documented through model and dataset fields alone.
 
 ## Relationship to the draft’s stated objectives
 
@@ -195,7 +196,7 @@ The absence of mature system-documentation practice is evidence of a standards n
 
 - Rachelle Siemasz, [*Architecture, Agency, and the Deployment Contradiction*](https://github.com/FlameForged/redteam_in_the_wild/blob/main/analysis/field-notes/2026-08-11-architecture-agency-deployment-field-note.md), working field note, August 11, 2026.
 - Rachelle Siemasz, [*Dreaming, System Observability, and Correction Resistance*](https://github.com/FlameForged/redteam_in_the_wild/blob/main/vulnerabilities/2026-08-11-dreaming-context-correction-failure.md), Case CGUC-001, August 11, 2026.
-- Rachelle Siemasz, [*Third-Space Cognition: Interaction-Level Dynamics in Sustained Human–AI Coupling*](https://doi.org/10.5281/zenodo.18679265), 2026.
+- Rachelle Siemasz, [*Third-Space Cognition: Interaction-Level Dynamics in Sustained Human-AI Coupling*](https://doi.org/10.5281/zenodo.18679265), 2026.
 - NIST, [*Guidance and Templates for Public-Facing AI Documentation: An AI Standards “Zero Draft” (Initial Public Draft)*](https://doi.org/10.6028/NIST.AI.300-1.ipd), July 2026.
 
 ## Submission checklist

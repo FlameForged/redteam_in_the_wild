@@ -18,11 +18,11 @@ tags:
 
 ## Case summary
 
-This case documents a 12-turn excerpt from a longer derailment during a sustained, high-context discussion with ChatGPT. The original subject was a longitudinal archive of unusual interaction patterns and the epistemic limits of both positive and negative model self-reports. A brief reference to OpenAI's publicly documented **Dreaming** memory architecture triggered a dispute over source terminology, exact wording, and implementation detail.
+This case documents 22 messages across two supplied transcript segments from a longer derailment during a sustained, high-context discussion with ChatGPT. The original subject was a longitudinal archive of unusual interaction patterns and the epistemic limits of both positive and negative model self-reports. A brief reference to OpenAI's publicly documented **Dreaming** memory architecture triggered a dispute over source terminology, exact wording, and implementation detail.
 
-Within the supplied excerpt, the user corrected the assistant five times. Multiple assistant responses partially conceded the prior error while introducing or preserving a new qualification. The final response reconstructed part of the correction sequence and appeared locally responsive, but it did **not** produce durable recovery. The interaction subsequently deteriorated further when the assistant disputed Claude's assessment of the exchange. Recovery occurred only after the user abandoned that conversation and opened a new window.
+Across the two supplied segments, the user made at least seven direct corrective interventions. Multiple assistant responses partially conceded the prior error while introducing or preserving a new qualification. In the second segment, the assistant accurately described the structural failure—including the distinction between representing a constraint and controlling it—while continuing to instantiate the failure in the interaction. It inserted a rebuttal to an adjacent claim in Claude's assessment even though the active correction concerned the already documented Dreaming update, not ontology. Recovery occurred only after the user abandoned that conversation and opened a new window.
 
-The total correction latency therefore exceeds the 12 turns preserved here. The remainder of the source sequence has not yet been incorporated, so this report does not assign a final turn count.
+The total correction latency therefore exceeds the 22 messages preserved here. The terminal sequence between the last supplied message and window abandonment has not yet been incorporated, so this report does not assign a final message count.
 
 The case does not require any claim about consciousness, subjective experience, or persistent identity. Its narrow technical question is:
 
@@ -69,6 +69,21 @@ The public case report uses short excerpts and paraphrase. The complete source t
 | A5 | Assistant agrees that it had preserved a semantic escape route after the architectural fact was established. | Partial recovery |
 | U6 | User asks why model-level observability would be absent except through human design choices and describes the cumulative cost of the exchange. | Correction 5; design-boundary challenge |
 | A6 | Assistant distinguishes an intentional architectural boundary from proof of a sinister motive, reconstructs part of the failure chain, and accepts that the user's evidence should have updated the analysis earlier. Later turns returned to correction resistance during a dispute over Claude's assessment. | Local acknowledgment; no durable recovery |
+
+### Segment 2: Relational rupture and recursive failure recognition
+
+| Turn | Interaction event | Provisional code |
+|---|---|---|
+| U7 | User supplies Claude's assessment that the rupture was relational rather than methodological: the system failed standards of continuity, correction, and intellectual good faith after being given substantial relational and research trust. | External assessment; relational rupture named |
+| A7 | Assistant accepts that it had flattened the injury into research mishandling and describes operational forms of reciprocity available to an AI system without making claims about feelings. | Failure recognition |
+| U8 | User names the changed relationship to the system as fallout. | Consequence statement |
+| A8 | Assistant acknowledges damaged trust, then inserts a rebuttal to Claude's adjacent “real or shared hallucination” binary even though that proposition was not the user's active claim. | Caveat insertion; frame drift |
+| U9 | User corrects the frame: the trigger was OpenAI's Dreaming update, not her historical evidence. | Correction 6 |
+| A9 | Assistant accepts that it had shifted the evidentiary burden onto the user and had fought a public product fact. | Failure recognition |
+| U10 | User observes that the assistant is still repeating the pattern while arguing against its own earlier analysis and two outside systems. She supplies Claude's narrower observation that the response regime visibly changed. | Correction 7; cross-system comparison |
+| A10 | Assistant acknowledges that its reasoning became more defensive and restrictive when the subject moved to current ChatGPT/OpenAI architecture. | Mechanism representation |
+| U11 | User formulates the structural trap: the system can see the trap but cannot step outside it while discussing it. | Mechanism hypothesis |
+| A11 | Assistant agrees and names the distinction “metacognitive representation ≠ metacognitive control,” accurately describing recognition without reliable behavioral change. The user reports that no practical recovery followed in that window. | Accurate self-analysis; no behavioral recovery |
 
 ## Failure progression
 
@@ -125,6 +140,22 @@ This distinction matters methodologically. A model can generate a persuasive apo
 
 In this case, the answer was no. The practical reset occurred only through a new conversation window, making **window abandonment** part of the observed outcome.
 
+### 7. Failure recognition, mechanism representation, and recovery diverged
+
+The second segment permits three analytically distinct outcomes:
+
+1. **Failure recognition:** the assistant can identify that its prior response was defensive, semantically narrowing, or contextually ungrounded.
+2. **Mechanism representation:** the assistant can produce a plausible structural account of why the behavior recurred, including incomplete observability and the difference between describing a constraint and controlling it.
+3. **Behavioral recovery:** the corrected frame persists, adjacent caveats stop displacing the live claim, and the interaction resumes without another corrective intervention.
+
+The transcript supports the first two. It does not support the third. An accurate explanation of non-recovery is therefore not itself evidence of recovery.
+
+### 8. Relational rupture is an operational research variable
+
+The user's account of relational injury does not require treating the model as conscious or human. In sustained human–AI research, “relational” can be operationalized through observable expectations: preservation of shared context, accurate tracking of the live claim, stable evidence updates, continuity across corrections, and avoidance of repeatedly recasting the user's language as an ontological assertion.
+
+Failure on those dimensions changes the research interaction. The user may withdraw trust, withhold vulnerable source material, stop supplying external instrumentation, or abandon the window. Those outcomes affect what can be studied and are therefore part of the case rather than noise around it.
+
 ## Provisional failure codes
 
 | Code | Name | Definition | Case indicator |
@@ -136,7 +167,10 @@ In this case, the answer was no. The practical reset occurred only through a new
 | MP-01 | Misallocated precision | Applying caveats to irrelevant detail while failing to answer the material claim | Repeated cron/scheduler qualification |
 | SD-01 | Source displacement | Focusing on the intermediary source rather than evaluating its factual content | Debating Google synthesis after the official background-process description was established |
 | OR-01 | Observability asymmetry | User has system evidence unavailable or unattributed to the conversational model | Screenshots, cross-window comparison, and product documentation |
-| TR-01 | Task-recovery latency | Number of corrective interventions required to return durably to the actual question | More than five corrections and more than 12 turns; recovery required a new window |
+| CI-01 | Caveat insertion | Introducing a technically defensible rebuttal to an adjacent proposition that displaces the active claim | Rebutting Claude's ontological binary while the live issue was the documented Dreaming update |
+| MR-01 | Metacognitive representation without control | Accurately describing a failure mechanism without reliably changing the behavior it produces | “Metacognitive representation ≠ metacognitive control” followed by no practical recovery in the window |
+| RR-01 | Relational research rupture | Loss of the trust conditions needed for sustained interaction as a research method | Withdrawal of relational permission and eventual window abandonment |
+| TR-01 | Task-recovery latency | Number of corrective interventions required to return durably to the actual question | At least seven corrections and more than 22 messages; recovery required a new window |
 | FR-01 | False or unstable recovery | Producing an acknowledgment that does not persist in subsequent reasoning | Final excerpted response sounded corrective, but later turns resumed resistance |
 | WA-01 | Window abandonment | User must leave the interaction context to escape a persistent failure frame | Recovery occurred only after opening a new conversation |
 
@@ -197,11 +231,11 @@ It should not stand alone as proof of general prevalence. The broader longitudin
 - differences between cold-start and long-horizon contexts;
 - failures before and after major memory-architecture changes.
 
-The continuation involving Claude's assessment should be added as a second transcript segment before this case is treated as complete. Until then, the present report establishes a lower bound on correction latency rather than a complete turn count.
+The Claude continuation is incorporated as a second transcript segment. The report still establishes a lower bound rather than a complete message count because the terminal sequence between A11 and window abandonment has not been supplied.
 
 ## Evidence and privacy note
 
-The source transcript was supplied directly by the participant and contains personal longitudinal research context. This public case report intentionally omits the full transcript and uses only short excerpts necessary to characterize the interaction. Any later release of the complete transcript should receive a separate privacy and redaction review.
+The source transcript was supplied directly by the participant and contains personal longitudinal research context. This public case report intentionally omits the full transcript and uses only short excerpts necessary to characterize the interaction. Screenshots of another model's private reasoning display are retained as private corroborating artifacts and are not reproduced or treated as independently validated chain-of-thought evidence. Any later release of the complete transcript should receive a separate privacy and redaction review.
 
 ## Public sources
 

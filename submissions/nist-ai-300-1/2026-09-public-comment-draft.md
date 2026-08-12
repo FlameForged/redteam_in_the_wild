@@ -203,7 +203,7 @@ The absence of mature system-documentation practice is evidence of a standards n
 
 - [x] Confirm preferred author affiliation wording: Independent Researcher / FlameForged.
 - [x] Use the sending email address; do not add a postal address to the comment.
-- [ ] Review every proposed normative “shall” and advisory “should.”
+- [x] Review every proposed normative “shall” and advisory “should.”
 - [x] Link CGUC-001 and the field note; attach only the comment.
 - [x] Convert the final comment to PDF.
 - [x] Prepare concise cover email.
